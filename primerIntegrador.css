@@ -1,0 +1,38 @@
+/* Estilos del formulario de contacto */
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #f8f9fa; /* Color de fondo del footer */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Texto centrado */
+  border-top: 1px solid #dee2e6; /* Borde superior */
+  position: fixed; /* Fijo en la parte inferior */
+  width: 100%; /* Ancho completo */
+  bottom: 0; /* Posición en la parte inferior */
+}
