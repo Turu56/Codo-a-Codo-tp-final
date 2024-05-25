@@ -2,6 +2,7 @@
 form {
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 50px; /* Agrega espacio al final del formulario para evitar que el footer lo tape */
 }
 
 input[type="text"],
@@ -11,7 +12,6 @@ select {
   width: 100%;
   margin-bottom: 10px;
   padding: 5px;
-  margin-top: 20px;
 }
 
 input[type="submit"] {
@@ -20,7 +20,6 @@ input[type="submit"] {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  margin-left: 30px;
 }
 
 input[type="submit"]:hover {
@@ -35,4 +34,23 @@ footer {
   position: fixed; /* Fijo en la parte inferior */
   width: 100%; /* Ancho completo */
   bottom: 0; /* Posición en la parte inferior */
+  z-index: 999; /* Asegura que el footer esté encima de otros elementos */
+}
+
+#datos {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+}
+#datos p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+#datos iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  height: 400px;
 }
