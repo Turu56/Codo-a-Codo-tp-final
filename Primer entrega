@@ -1,9 +1,9 @@
 Consigna:
 
-- El sitio web debe poseer al menos 4 páginas HTML o 4 secciones
+- Ok estan las 4 páginas. El sitio web debe poseer al menos 4 páginas HTML o 4 secciones
   si se trata de un sitio One Page. 10
 
-- El sitio web debe incluir un formulario de contacto, con al menos 5
+- Hecho. Falta el tema de la imagen . El sitio web debe incluir un formulario de contacto, con al menos 5
   campos que incluya (un checkbox o radiobutton), un select y una
   imagen, con validación realizada mediante JavaScript para que los
   campos sean obligatorios.
@@ -15,8 +15,10 @@ Consigna:
   15
 
 - Utilizar al menos una animación, transformación o una transición. 10
-  Poseer una estructura HTML maquetada con Flexbox y/o Grid. 10
-  Se considerará la presentación general del proyecto, la
+
+- Poseer una estructura HTML maquetada con Flexbox y/o Grid. 10
+
+- favicon hecho. Punto de no retorno no hay. Se considerará la presentación general del proyecto, la
   legibilidad del mismo, la navegación sin llegar a puntos de no
   retorno, la optimización de imagenes para la web y el uso de
   favicon

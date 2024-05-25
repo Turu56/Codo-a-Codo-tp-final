@@ -54,3 +54,12 @@ footer {
   width: 50%;
   height: 400px;
 }
+
+.carousel-item img {
+  height: 500px; /* Ajusta esta altura según tus necesidades */
+  object-fit: cover; /* Esto asegurará que la imagen se ajuste bien al contenedor */
+}
+/* También asegúrate de que el body tenga un padding-bottom adecuado para el footer */
+body {
+  padding-bottom: 100px; /* Ajusta esta altura según el tamaño de tu footer */
+}
