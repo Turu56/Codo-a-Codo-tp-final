@@ -27,14 +27,16 @@ input[type="submit"]:hover {
 }
 
 footer {
-  background-color: #f8f9fa; /* Color de fondo del footer */
   padding: 20px; /* Espaciado interno */
-  text-align: center; /* Texto centrado */
   border-top: 1px solid #dee2e6; /* Borde superior */
   position: fixed; /* Fijo en la parte inferior */
   width: 100%; /* Ancho completo */
   bottom: 0; /* Posición en la parte inferior */
   z-index: 999; /* Asegura que el footer esté encima de otros elementos */
+  background-color: #2f4858;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 
 #datos {
@@ -46,20 +48,35 @@ footer {
 }
 #datos p {
   margin-bottom: 1rem;
-  font-size: 1.1rem;
+  font-size: 2rem;
+  width: 100%;
 }
 #datos iframe {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 50%;
-  height: 400px;
+  width: 100%;
+  height: 10 rem;
 }
 
-.carousel-item img {
-  height: 500px; /* Ajusta esta altura según tus necesidades */
-  object-fit: cover; /* Esto asegurará que la imagen se ajuste bien al contenedor */
-}
-/* También asegúrate de que el body tenga un padding-bottom adecuado para el footer */
 body {
   padding-bottom: 100px; /* Ajusta esta altura según el tamaño de tu footer */
+}
+
+/* style.css */
+.nav-link:hover {
+  color: white; /* Cambia el color al pasar el cursor por encima */
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.navbar {
+  background-color: #8b5843;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
 }
