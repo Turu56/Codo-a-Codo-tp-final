@@ -1,0 +1,38 @@
+Consigna:
+
+- El sitio web debe poseer al menos 4 páginas HTML o 4 secciones
+  si se trata de un sitio One Page. Se realizaron 4 paginas
+
+- El sitio web debe incluir un formulario de contacto, con al menos 5
+  campos que incluya (un checkbox o radiobutton), un select y una
+  imagen, con validación realizada mediante JavaScript para que los
+  campos sean obligatorios. Formulario en página contacto
+
+- Tener al menos una página totalmente responsive con mínimo 3
+  puntos de corte con media querys para 3 tamaños de dispositivos
+  (PC escritorio, Tablet, Celular). Para el diseño debe usarse CSS.
+  Se puso un media query en la pagina de contacto para que a los 768px deje de estar en una sola columna y se divida en dos. las paginas son todas responsivas.
+
+- Utilizar al menos una animación, transformación o una transición. El navbar cambia de color cuando el mouse pasa por arriba
+
+- Poseer una estructura HTML maquetada con Flexbox y/o Grid. 10
+
+- Se considerará la presentación general del proyecto, la
+  legibilidad del mismo, la navegación sin llegar a puntos de no
+  retorno, la optimización de imagenes para la web y el uso de
+  favicon. no se verificaron puntos de no retorno, se incluyo favicon y etiqueta meta og.
+
+- El trabajo práctico deberá subirse a un servidor online y
+  compartirse mediante un repositorio de Git. (Mandatorio) se utilizó github
+
+- La página deberá subirse a un servidor on-line para poder
+  ser navegada por el Docente. Ejemplo: Netlify o similar.
+  (Mandatorio) subido a netlify
+
+- El sitio web debe estar estructurado utilizando etiquetas
+  semánticas HTML correctamente. Debe pasar la validación
+  de https://validator.w3.org/ sin errores. (Mandatorio) se verificó aqui, de todas formas utilizamos prettier.
+
+- ser puso el mapa y los iconos en la pantalla contacto Utilizar iframes y/o íconos de FontAwesome y/o fuentes
+  locales o bien de Google Fonts.Es optativo incluir algún
+  elemento de Bootstrap. Se utilizó iframe en el mapa y fontawesome en los iconos de la pagina contacto

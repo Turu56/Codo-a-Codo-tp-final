@@ -33,7 +33,7 @@ footer {
   width: 100%; /* Ancho completo */
   bottom: 0; /* Posición en la parte inferior */
   z-index: 999; /* Asegura que el footer esté encima de otros elementos */
-  background-color: #2f4858;
+  background-color: #8b5843;
   color: white;
   text-align: center;
   padding: 10px;
@@ -68,7 +68,7 @@ body {
 }
 
 body {
-  background-color: #f8f9fa;
+  background-color: #beb0aa;
   color: #343a40;
 }
 
@@ -79,4 +79,43 @@ body {
 h1 {
   padding: 20px;
   text-align: center;
+}
+
+.contacto-mapa {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto,
+.mapa {
+  width: 100%;
+}
+
+/* Media query para pantallas grandes */
+@media screen and (min-width: 768px) {
+  .contacto-mapa {
+    flex-direction: row;
+  }
+
+  .contacto {
+    width: 50%;
+  }
+
+  .mapa {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contacto-mapa {
+    flex-direction: row;
+  }
+
+  .contacto {
+    width: 50%;
+  }
+
+  .mapa {
+    width: 50%;
+  }
 }
